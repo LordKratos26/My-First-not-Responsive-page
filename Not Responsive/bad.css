@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0; box-sizing: border-box;
+    }
+    ul{list-style-type: none;}
+    a {text-decoration: none;}
+.head{
+    width: 100%;
+    height: 500px;
+    background-image: url(mountain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cont{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+.top{
+    width: 100%;
+    height: 250px;
+    
+}
+.bottom{
+    width: 100%;
+    height: 250px;
+    
+}
+.top h2{
+    float:left;
+    color: bisque;
+    font-size: 9mm;
+}
+.navbar {
+    float: right;
+    height: 200px;
+    
+    
+}
+.navbar li{
+     float: left;   
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.navbar li a {
+ color:white;
+}
+.navbar li a:hover {
+    color: green;
+
+}
+.navbar  li ul li {
+    display: none;
+    
+}
+.navbar li:hover ul li{
+    display:block;
+}
+.bottom h3, h1, p {
+    color: bisque;
+    text-align: center;
+    
+}
+.bottom .input1{
+    margin-left: 445px;
+    margin-top: 20px;
+    width: 10%px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: mediumspringgreen;
+    
+}
+.clearfix{
+    clear: both;
+}
+.head2{
+    width: 100%;
+    height: 500px;
+    background: color #f4f4f4;
+    background-position: center;
+    background-size: cover;
+}
+.top2{
+    width: 100%;
+    height: 200px;
+    
+}
+.bottom2{
+    width: 100%;
+    height: 300px;}
+.top2 h2{
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top2 hr{
+    width:10%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: black;
+    border: none;
+}
+.bottom2 div{
+    width: 23%;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    box-shadow: 0px 0px 20px gray; 
+    }
+    .bottom2 p{
+        color: black;
+        line-height: 15px; 
+    }
+    .cont .bottom2 .fa{
+        color: rgb(51, 138, 4);
+    }
+.head3{ 
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.418), rgba(255, 0, 0, 0.185)), url('el.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cont .left1 {
+    width: 50%;
+    height: 500px;
+    
+    float:left;
+    
+}
+.cont .right1{
+    width: 50%;
+    height: 500px;
+    
+    float:left;
+    position: relative;
+}
+.left1 h2{
+    margin-top: 150px;
+}
+.left1 p{
+    margin-top: 30px;
+    
+}
+.left1 input{margin-top: 40px;
+             margin-left: 80px;
+             width: 25%;
+             height: 45px;
+             border-radius: 14px;
+             cursor: pointer;
+             border: none;
+            }
+            .left1 .input2{
+                background-color: rgb(51, 138, 4);
+            }
+            .right1 div{
+                width: 50%;
+                height: 150px;
+                
+                }
+                .right1 .bir{
+                    position: absolute;
+                    top:150px;
+                    left:60px;
+                    background-image: url(yem1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    z-index: 1;
+                }
+                .right1 .uc{
+                    position: absolute;
+                    bottom:144px;
+                    right: 22px;
+                    background-image: url(yem2.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .right1 .iki{
+                   position: absolute;
+                    top:86px;
+                    right: 40px;
+                    background-image: url(yem3.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .head2{
+                    width: 100%;
+                    height: 500px;
+                    background: color #f4f4f4;
+                    background-position: center;
+                    background-size: cover;}
+                    .top3{
+                        width: 100%;
+                        height: 200px;}
+                        
+                        .top3 h2{
+                            padding: 40px;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                        .top3 hr{
+                            width:10%;
+                            height: 5px;
+                            margin: 0 auto;
+                            background-color: black;
+                            border: none;
+                    }
+                    .navbar2 {
+                        height: 200px;
+                        margin-left: 190px;
+                         }
+                    .navbar2 li{
+                        display: inline-block;   
+                        width: 100px;
+                        height: 40px;
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 40px;
+                        
+                    }
+                    .navbar2 li a {
+                     color:black;
+                    }
+                    .navbar2 li a:hover {
+                        color: green;}
+
+                    .bottom3{
+                        width: 100%;
+                        height: 300px;}
+                    .bottom3 div{
+                        width: 20%;
+                        height: 130px;
+                        
+                        float: left;
+                        margin-left: 29px;
+                        margin-top: 10px;
+                        background-position: center;
+                        background-size: cover;
+                        }
+                        .bottom3 .one{background-image: url(port1.jpg);}
+                        .bottom3 .two{background-image: url(port2.jpg); }
+                        .bottom3 .three{background-image: url(port3.jpg);}
+                        .bottom3 .four{background-image: url(port4.png);}
+                        .bottom3 .five{background-image: url(port5.jpg);}
+                        .bottom3 .six{background-image: url(port6.jpg);}
+                        .bottom3 .seven{background-image: url(port7.png);}
+                        .bottom3 .eight{background-image: url(port8.jpg);}
+                        .head5{
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(head5b.jpg);
+                            background-position: center;
+                            background-size: cover;}         
+
+                            .top4{
+                                width: 100%;
+                                height: 150px;}
+                                .top4 h2{
+                                    padding: 40px;
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                }
+                                .top4 hr{
+                                    width:10%;
+                                    height: 5px;
+                                    margin: 0 auto;
+                                    background-color: black;
+                                    border: none;
+                            } 
+                                .bottom4{
+                                    width: 100%;
+                                    height: 300px;}
+
+                                    .bottom4 .on{
+                                        width:50%;
+                                        height: 350px;
+                                        float: left;
+                                        position: relative;
+                                        background-image: url(yem11.jpg);
+                                        background-position: center;
+                                        background-size: cover;
+                                    }
+                                    .bottom4 .onbir{
+                                        width:45%;
+                                        height: 165px;
+                                        float: right;
+                                        position: relative;
+                                        background-image: url(cre.jpg);
+                                        background-position: center;
+                                        background-size: cover;
+                                    }
+                                    .bottom4 .oniki{
+                                        width: 45%;
+                                        height: 165px;
+                                        float: right;
+                                        margin-top: 20px;
+                                        position: relative;
+                                        background-image: url(plane.jpg);
+                                        background-position: center;
+                                        background-size: cover;
+                                    }
+                                    .bottom4 .on .layout1{
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 100px;
+                                        background-color:black;
+                                        opacity: 0.8;
+                                        bottom: 0;
+                                        left:0;
+                                    }
+                                    .on .layout1 p{
+                                        position: relative;
+                                        top:40px;
+                                        color: bisque;
+                                    }
+                                    .bottom4 .onbir .layout2{
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 70px;
+                                        background-color:black;
+                                        opacity: 0.8;
+                                        bottom: 0;
+                                        left:0;}
+                                    
+                                        .bottom4 .oniki .layout2{
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 70px;
+                                            background-color:black;
+                                            opacity: 0.8;
+                                            bottom: 0;
+                                            left:0;}
+                                            .bottom4 .layout2 p{ position: relative;
+                                                top:20px;
+                                                color: bisque;
+
+
+                                            }
+                                            .head6{
+                                                    width: 100%;
+                                                    height: 250px;
+                                                    background: color #f4f4f4;
+                                                     }
+                                                     .conte{
+                                                        width: 70%;
+                                                        height: 300px;
+                                                        margin: auto;
+                                                    }
+                                                    .axir div{
+                                                        width: 23%;
+                                                        height: 220px;
+                                                        background-color: grey;
+                                                        float: left;
+                                                        margin-top: 10px;
+                                                        margin-left: 15px;
+                                                        text-align: center;
+                                                        }
+                                                        .axir div h1, h2 {
+                                                            color: green;
+                                                            margin-top: 50px;
+                                                        }
+                                                        .head7{
+                                                            width: 100%;
+                                                            height: 500px;
+                                                            
+                                                            background-position: bottom;
+                                                            background-size: cover;
+                                                            background: linear-gradient(to right, rgba(0, 0, 0, 0.938), rgba(255, 0, 0, 0)), url('bridge.jpg');
+                                                        } 
+                                                        .top7{
+                                                            width: 100%;
+                                                            height: 200px;}
+                                                            .bottom7{
+                                                                width: 100%;
+                                                                height: 300px;}
+ 
+                                                        .top7 h2{
+                                                            padding: 40px;
+                                                            text-align: center;
+                                                            text-transform: uppercase;
+                                                        }
+                                                        .top7 hr{
+                                                            width:10%;
+                                                            height: 5px;
+                                                            margin: 0 auto;
+                                                            background-color: black;
+                                                            border: none;}        
+                                .bottom7 .map{
+                                    width: 45%;
+                                    height: 280px;
+                                    background-image: url(map.jpg);
+                                    float: left;
+                                    background-position: center;
+                                    background-size: cover;
+                                }
+
+                                .a{
+                                    margin-left: 100px; margin-top: 2%; background-color: green; width: 40%; height: 35px;
+                                    outline: none; border: none;    
+                                }
+                                .b{
+                                    width: 15%;  margin-left: 200px; margin-top: 2%; margin-bottom: 1%; background-color: green; 
+                                     border-radius: 15%; border: none;
+                                    padding: 15px; background-color: green;
+                                }
+                                .foot{
+                                    width: 100%;
+                                    height: 90px;
+                                    background-color: black;
+                                }
+                                .conter{width: 70%;
+                                       height: 90px;
+                                         margin: 0 auto;
+                                                     }
+                                   
+                                .leftf{
+                                    width: 50%;
+                                    height: 80px;
+                                    float: left;
+                                }
+                                .rightf{
+                                    width: 50%;
+                                    height: 80px;
+                                    float: right;
+                                }
+                                .leftf p {
+                                    padding-top: 40px;}
+                                    .leftf span{
+                                        color: red;
+                                    }
+                                    .rightf input{
+                                        width: 10%;
+                                        height: 20%;
+                                        padding: 20px;
+                                        margin-top: 20px;
+                                        border-radius: 100%;
+                                        background-position: center;
+                                        background-size: cover;
+                                        cursor: pointer;
+                                    }
+                                    .rightf .fac{
+                                        margin-left: 250px;
+                                        background-image: url(face.jpg);
+                                     }
+                                     .rightf .twi{background-image: url(tw.jpg);  }
+                                     .rightf .ins{ background-image: url(ins.png);}
+                                     .rightf .vka{background-image: url(vk.png)}
+
+                                     .clearfix{
+                                         clear: s;
+                                     }
